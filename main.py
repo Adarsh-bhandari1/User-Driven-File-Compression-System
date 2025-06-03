@@ -196,7 +196,7 @@ class CompressionApp:
             low_ratio = 0.40     # PNG conversion
             optimal_ratio = 0.35
         else:
-            high_ratio = 0.50    # Default ZIP
+            high_ratio = 0.50    # default ZIP
             low_ratio = 0.70
             optimal_ratio = 0.60
 
@@ -363,6 +363,7 @@ class CompressionApp:
                 ("BZIP2 Archive", "*.bz2"),
                 ("LZMA Archive", "*.xz"),
                 ("All files", "*.*"),
+                
             ]
         )
         if not compressed_path:
